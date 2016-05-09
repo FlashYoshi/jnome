@@ -51,7 +51,7 @@ public class BaseLibraryJavaProjectConfigurator extends JavaProjectConfigurator 
         protected void addBaseScanner(View view) {
             // The base loader for Java already creates the primitive types
             // and load the Java base library.
-            // Therefore, we only have to add a loader for the base Neio library file.
+            // Therefore, we only have to add a loader for the base Java library file.
 
             // 1) For a normal jar release, the base library is always stored inside neio.jar
             // 2) For the Eclipse plugin, the base library is included inside the plugin jar
